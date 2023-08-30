@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+    crossorigin="anonymous"></script>
+  <script defer src="script.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="icon" href="img/NEWFILM.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>NEWFILM</title>
+</head>
+
+<body>
+  <div class="principal">
+    <header>
+      <div class="newfilmLogo">
+        <a id="logo" href="index.html"><img src="img/logoNewFilm.png" alt="Logo Image"></a>
+      </div>
+      <nav class="main-nav">
+
+        <a href="https://top10.netflix.com/es" target="_blank">Peliculas</a>
+        <a href="https://www.netflix.com/es/browse/genre/839338" target="_blank">Originales</a>
+        <a href="https://about.netflix.com/es/new-to-watch" target="_blank">Añadidas recientemente</a>
+        <a href="#footer">Contacta</a>
+      </nav>
+      <nav class="sub-nav">
+        
+        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+        <button type="button" name="abrirForm" id="abrir"><a href="#form-movie">Formulario Películas</a> </button>
+        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+        <button type="button" name="verPeliculas" id="verPeli">Ver Películas</button>
+      </nav>
+    </header>
+  </div>
+  <section class="main-container">
+    <h1 id="home">Popular on NewFilm</h1>
+
+    <div class="box" id="movie-list"></div>
+
+
+    <div id="formularioPelicula">
+      <dialog id="modal">
+        <h2>FATAL ERROR😩</h2>
+        <p id="contenidoModal"></p>
+        <button type="button" id="cancel">Salir</button>
+      </dialog>
+
+      <dialog id="modal-exito">
+        <h2 id="titulo-modal-exito"></h2>
+        <p></p>
+      </dialog>
+      
+    </div>
+  </section>
+
+  <div id="flechaScroll">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+
+
+  <section class="link">
+    <div class="logos">
+      <a href="https://www.facebook.com/netflixespana/?locale=es_ES" target="_blank"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+      <a href="https://www.instagram.com/netflixes/?hl=es" target="_blank"><i class="fab fa-instagram fa-2x logo"></i></a>
+      <a href="https://twitter.com/NetflixES?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter fa-2x logo"></i></a>
+      <a href="https://www.youtube.com/channel/UCT2UUebPuLke_BShrDh_YEA" target="_blank"><i class="fab fa-youtube fa-2x logo"></i></a>
+    </div>
+    <div class="sub-links">
+      <ul>
+        <li><a href="https://help.netflix.com/es-es/node/372" target="_blank">Audio y Subtitulos</a></li>
+        <li><a href="https://help.netflix.com/es-es/node/14361?ui_action=kb-article-popular-categories" target="_blank">NewFilm Streaming</a></li>
+        <li><a href="https://help.netflix.com/es-es" target="_blank">Centro de Ayuda</a></li>
+        <li><a href="https://about.netflix.com/es_es/news/netflix-establishes-its-first-european-production-hub-in-madrid" target="_blank">Nuestros Centros</a></li>
+        <li><a href="https://about.netflix.com/es/news/actualizacion-sobre-funciones-pagas-para-compartir-cuentas-ar" target="_blank">Pagos y cuentas</a></li>
+        <li><a href="https://help.netflix.com/es-es/node/100628" target="_blank">Privacidad</a></li>
+        <li><a href="https://www.europapress.es/portaltic/internet/noticia-cuestion-si-compartir-contrasena-netflix-espana-legal-sigue-ejemplo-reino-unido-20230106102950.html" target="_blank">Noticias Legales</a></li>
+        <li><a href="https://help.netflix.com/es-es/node/33335" target="_blank">Contacta</a></li>
+      </ul>
+    </div>
+
+    <footer id="footer">
+      <p>&copy 2021-2023 FP UCAM - Practica Javascript, Inc.<br>
+       Jose Manuel Martín &copy 2023
+      </p>
+    </footer>
+  </section>
+</body>
+
+</html>
